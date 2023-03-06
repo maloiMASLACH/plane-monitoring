@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
 import { trajectories } from "./constants";
-import { Select, Statistic, Table } from "./components";
+import {
+  RoadMap, Select, Statistic, Table
+} from "./components";
 import { useFormatData } from "./hooks";
 
 const App = () => {
@@ -16,6 +18,7 @@ const App = () => {
       <h1 className="pageTitle">Plane fly statistic</h1>
 
       <Table planeId={selected} data={data} />
+      <RoadMap data={data} />
       <Select
         selected={selected}
         setSelected={handleChangePlane}

@@ -1,0 +1,9 @@
+.pageWrapper {
+  background-color: rgb(216, 247, 248);
+  min-height: 100vh;
+  padding:  20px 50px;
+}
+.pageTitle {
+  font-weight: 700;
+  margin: 0;
+}

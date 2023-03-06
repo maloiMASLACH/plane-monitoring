@@ -1,0 +1,15 @@
+.selectWrapper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.selectLabel {
+  font-weight: 600;
+}
+
+.planeSelect {
+  display: block;
+  width: 200px;
+}
